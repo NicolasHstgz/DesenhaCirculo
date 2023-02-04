@@ -11,7 +11,7 @@ var index = 0;
 
 function changeColor() {
 
-  if(index > 2) {
+  if(index > circleColor.length) {
     index = 0;
   }
 
